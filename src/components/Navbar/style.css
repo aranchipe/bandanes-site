@@ -1,0 +1,36 @@
+.container-navbar {
+    width: 100vw;
+    height: 57px;
+    background-color: #008e49;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 300px;
+}
+
+.container-navbar div {
+    color: white;
+    width: 272px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+.container-navbar .redes-sociais {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+
+.container-navbar div img {
+    width: 35px;
+}
+
+.container-navbar div:hover {
+    background-color: #fcc1c1;
+}
+
+.redes-sociais img:hover {
+    transform: scale(1.1);
+}

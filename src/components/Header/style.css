@@ -1,0 +1,25 @@
+.container-header {
+    width: 100vw;
+    height: 135px;
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.logo {
+    width: 120px;
+}
+
+.bandanes {
+    width: 220px;
+}
+
+.div-logo {
+    position: absolute;
+}
+
+.div-bandanes {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
