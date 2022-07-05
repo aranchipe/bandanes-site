@@ -27,8 +27,8 @@ function Main() {
       <Navbar />
       <div className='carrossel-container'>
         <div className={carrosselImg === 2 ? 'carrossel proximo' : carrosselImg === 1 ? 'carrossel anterior' : 'carrossel'}>
-          <a href='https://www.youtube.com/'><img src={carros1} /></a>
-          <img src={carros2} />
+          <a href='https://www.youtube.com/'><img src={carros1} alt='carrossel1' /></a>
+          <img src={carros2} alt='carrossel2' />
 
         </div>
         <div className='bolinhas'>
