@@ -1,6 +1,71 @@
 .linha-header {
     width: 100vw;
     height: 5px;
-    /* background-color: #fcc1c1; */
     background-color: black;
+}
+
+.carrossel-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.carrossel {
+    width: 100vw;
+    display: flex;
+}
+
+.proximo {
+    animation: proximo .5s linear forwards;
+}
+
+.anterior {
+    animation: anterior .5s linear forwards;
+
+}
+
+.bolinha-aberta {
+    width: 15px;
+    height: 15px;
+    border: 4px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.bolinha-fechada {
+    width: 15px;
+    height: 15px;
+    border: 4px solid white;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}
+
+.bolinhas {
+    position: absolute;
+    top: 550px;
+    left: 50vw;
+    display: flex;
+    gap: 10px;
+}
+
+@keyframes proximo {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100vw);
+
+    }
+}
+
+@keyframes anterior {
+    from {
+        transform: translateX(-100vw);
+    }
+
+    to {
+        transform: translateX(0);
+
+    }
 }
