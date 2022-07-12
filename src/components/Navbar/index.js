@@ -1,7 +1,6 @@
 import './style.css'
 import whatsapp from '../../assets/whatsapp.svg'
 import instagram from '../../assets/instagram.svg'
-import { useState } from 'react'
 
 function Navbar({ setCategoriasModal }) {
     return (

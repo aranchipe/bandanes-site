@@ -39,8 +39,8 @@ function Main() {
       />}
       <div className='carrossel-container'>
         <div className={carrosselImg === 2 ? 'carrossel proximo' : carrosselImg === 1 ? 'carrossel anterior' : 'carrossel'}>
-          <a href='#'><img src={carros1} alt='carrossel1' /></a>
-          <a href='#'><img src={carros2} alt='carrossel2' /></a>
+          <img src={carros1} alt='carrossel1' />
+          <img src={carros2} alt='carrossel2' />
 
         </div>
         <div className='bolinhas'>
