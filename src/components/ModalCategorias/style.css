@@ -1,0 +1,18 @@
+.container-modal-categorias {
+    width: 214.34px;
+    position: absolute;
+    top: 197px;
+    left: 943px;
+    z-index: 1;
+    background-color: white;
+    padding: 5px 5px;
+}
+
+.container-modal-categorias li {
+    list-style: none;
+}
+
+.container-modal-categorias li:hover {
+    color: #fcc1c1;
+    cursor: pointer;
+}

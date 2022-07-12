@@ -7,6 +7,7 @@
 .carrossel-container {
     position: relative;
     overflow: hidden;
+    margin-bottom: 50px;
 }
 
 .carrossel {
@@ -24,20 +25,28 @@
 }
 
 .bolinha-aberta {
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     border: 4px solid white;
     border-radius: 50%;
     cursor: pointer;
 }
 
+.bolinha-aberta:hover {
+    transform: scale(1.2);
+}
+
 .bolinha-fechada {
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     border: 4px solid white;
     border-radius: 50%;
     background-color: white;
     cursor: pointer;
+}
+
+.bolinha-fechada:hover {
+    transform: scale(1.2);
 }
 
 .bolinhas {
@@ -46,6 +55,36 @@
     left: 50vw;
     display: flex;
     gap: 10px;
+}
+
+.categorias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 200px;
+}
+
+.nextIcon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcc1c1;
+    cursor: pointer;
+
+}
+
+.nextIcon img {
+    width: 15px;
+
+}
+
+.nextIcon:hover {
+    transform: scale(1.2);
 }
 
 @keyframes proximo {

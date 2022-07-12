@@ -1,9 +1,7 @@
 .container-navbar {
     width: 100vw;
     height: 57px;
-    /* background-color: #008e49; */
     background-color: #fcc1c1;
-
     display: flex;
     justify-content: space-between;
     padding: 0 300px;
@@ -30,9 +28,7 @@
 }
 
 .container-navbar div:hover {
-    /* background-color: #fcc1c1; */
     background-color: black;
-    transform: scale(1.1);
 }
 
 .redes-sociais img:hover {

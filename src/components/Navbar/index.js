@@ -1,8 +1,9 @@
 import './style.css'
 import whatsapp from '../../assets/whatsapp.svg'
 import instagram from '../../assets/instagram.svg'
+import { useState } from 'react'
 
-function Navbar() {
+function Navbar({ setCategoriasModal }) {
     return (
         <div className='container-navbar'>
             <div>
@@ -16,9 +17,10 @@ function Navbar() {
                 <h3>Personalizados</h3>
 
             </div>
-            <div>
+            <div onMouseOver={() => setCategoriasModal(true)}
+                onMouseOut={() => setCategoriasModal(false)}
+            >
                 <h3>Categorias</h3>
-
             </div>
             <div>
                 <h3>Contato</h3>
