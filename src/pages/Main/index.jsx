@@ -61,7 +61,7 @@ function Main() {
       </div>
       <div className='categorias'>
         <div onClick={() => setCarrosselCategorias(1)} className='nextIcon'>
-          <img src={previousIcon} />
+          <img src={previousIcon} alt='previous' />
 
         </div>
         {carrosselCategorias === 1 ? categorias.slice(0, 5).map((item) => (
@@ -77,7 +77,7 @@ function Main() {
           />
         ))}
         <div onClick={() => setCarrosselCategorias(2)} className='nextIcon'>
-          <img src={nextIcon} />
+          <img src={nextIcon} alt='next' />
         </div>
 
       </div>
